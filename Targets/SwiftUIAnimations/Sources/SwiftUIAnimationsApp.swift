@@ -1,5 +1,4 @@
 import SwiftUI
-import SwiftUIAnimationsUI
 
 @main
 struct SwiftUIAnimationsApp: App {
@@ -9,3 +8,4 @@ struct SwiftUIAnimationsApp: App {
     }
   }
 }
+
