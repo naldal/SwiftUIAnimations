@@ -13,8 +13,11 @@ struct ContentView: View {
     Section() {
       NavigationView {
         List {
-          NavigationLink(destination: MovingObjects()) {
-            Text("Moving Objects")
+          NavigationLink(destination: DragObject()) {
+            Text("Drag Object")
+          }
+          NavigationLink(destination: RollingObject()) {
+            Text("Rolling Object")
           }
         }
         .navigationTitle("SwiftUI Animations")

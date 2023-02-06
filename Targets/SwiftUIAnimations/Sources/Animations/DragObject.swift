@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct MovingObjects: View {
+struct DragObject: View {
   
   @State private var offset: CGSize = .zero
   
