@@ -19,7 +19,6 @@ struct RollingObject: View {
         Square(width: 120, height: 120)
           .offset(x: squarePosition, y: 0)
           .rotationEffect(rollingAngle)
-        
       }
       Button {
         withAnimation(.linear(duration: 23.0)) {

@@ -19,6 +19,9 @@ struct ContentView: View {
           NavigationLink(destination: RollingObject()) {
             Text("Rolling Object")
           }
+          NavigationLink(destination: SaredSquare()) {
+            Text("Scared Square")
+          }
         }
         .navigationTitle("SwiftUI Animations")
         
