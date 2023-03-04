@@ -22,6 +22,12 @@ struct ContentView: View {
           NavigationLink(destination: SaredSquare()) {
             Text("Scared Square")
           }
+          NavigationLink(destination: TextChanges()) {
+            Text("Text Changes")
+          }
+          NavigationLink(destination: ColorChanger()) {
+            Text("Color Changer")
+          }
         }
         .navigationTitle("SwiftUI Animations")
         
